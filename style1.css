@@ -73,3 +73,20 @@ body {
     margin: 20px;
     opacity: 50%;
 }
+
+.btn1 {
+    background: linear-gradient(180deg, #000000, #ffffff);
+}
+
+.btn2 {
+    background: linear-gradient(180deg, #dee200, #2fa029);
+}
+
+.btn3 {
+    background: linear-gradient(180deg, #ff0000, #000000);
+}
+
+.btntxt {
+    /* font-size: 15px; */
+    font-weight: 500;
+}
