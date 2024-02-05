@@ -12,8 +12,9 @@ function toggleButton(buttonId) {
         });
     }
     }
-    toggleButton('togglebutton');
-    toggleButton('togglebutton1');
+    toggleButton('toggleButton');
+    toggleButton('toggleButton1');
+    toggleButton('toggleButton2');
 // function toggleButton(buttonId) {
 //         const button = document.getElementById(buttonId);
 //         button.classList.toggle('active');
