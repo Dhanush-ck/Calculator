@@ -41,15 +41,13 @@ function toggleButtonOnOtherPage() {
 
     buttonIds.forEach(buttonId=> {
         const button = document.getElementById(buttonId);
-        button.addEventListener('click', function () {
             if (isButtonActive) {
                 button.classList.toggle(name);
                 const isActive = button.classList.contains(name);
                 localStorage.setItem('isButtonActive', isActive);
             }
         });
-    });
-}
+    }
 
 document.addEventListener('DOMContentLoaded',toggleButtonOnOtherPage);
 
