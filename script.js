@@ -3,6 +3,12 @@ let buttons = document.querySelectorAll('.btn');
 let string = "";
 let arr = Array.from(buttons);
 arr.forEach(button =>{
+    button.addEventListener('mouseover', (e)=>{
+        e.target.classList.add('btns');
+    });
+    button.addEventListener('mouseout', (e)=>{
+        e.target.classList.remove('btns');
+    });
     button.addEventListener('click',(e) =>{
         if(e.target.innerHTML == '='){
             string = eval(string);
@@ -24,12 +30,6 @@ arr.forEach(button =>{
     })
 })
 
-// Sidebar
-// const menu = document.querySelector("#toggleBtn");
-
-// menu.addEventListener('click',function(){
-//     document.querySelector("#sidebar").classList.toggle("expand")
-// })
 
 function toggleButtonOnOtherPage() {
     const isButtonActive = localStorage.getItem('isButtonActive') === 'true';
