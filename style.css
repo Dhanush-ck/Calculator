@@ -29,6 +29,8 @@ body {
 
 .calculator {
     border: 1px solid #717377;
+    height: 600px;
+    width: 400px;
     padding: 20px ;
     border-radius: 16px;
     background-color: transparent;
@@ -56,13 +58,20 @@ input::placeholder{
     border: none;
     width: 60px;
     height: 60px;
-    margin:10px;
+    margin:12px;
     border-radius: 50%;
     background: transparent;
     color: #ffffff;
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
+}
+
+.btns {
+    /* width: 70px;
+    height: 70px; */
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
+    /* font-size: 25px; */
 }
 
 .equalBtn {
@@ -98,6 +107,11 @@ input::placeholder{
 }
 
 .gny {
-    background-color: #15a018;
-    color: #fbaa00;
+    background-color: #2fa029;
+    color: #dee200;
+}
+
+.bnr {
+    background-color: #000000;
+    color: #ff0000;
 }
